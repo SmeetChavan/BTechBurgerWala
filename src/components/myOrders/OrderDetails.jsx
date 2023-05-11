@@ -69,7 +69,7 @@ function OrderDetails() {
                         <h1>Payment:&nbsp;</h1>
                         <p>
                             <b>Payment Method:&nbsp;</b>
-                            {order.paymentMethod}
+                            {order.paymentMethod === "Online" ? order.paymentMethod : "Cash on delivery"}
                         </p>
 
                         {order.paymentInfo ? 
@@ -79,10 +79,14 @@ function OrderDetails() {
                         :
                         ""
                         }
-                        <p>
-                            <b>Paid At:&nbsp;</b>
-                            {order.paidAt.split("T")[0]}
-                        </p>
+                        {order.paidAt ? 
+                            <p>
+                                <b>Paid At:&nbsp;</b>
+                                {order.paidAt.split("T")[0]}
+                            </p>
+                        :
+                        ""
+                        }
                     </div>
     
                     <div>
