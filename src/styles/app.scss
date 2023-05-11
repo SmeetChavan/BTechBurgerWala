@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Tenor+Sans&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 40px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4dV8NRVOf4QiNezooFvutkUGarFHw94IxCy2jOwvS-Q&s');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+}
+
+a{
+    text-decoration: none;
+}
