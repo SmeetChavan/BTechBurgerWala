@@ -39,3 +39,14 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .founder > div > p{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .founder > div > p{
+        font-size: 0.6rem;
+    }
+}
