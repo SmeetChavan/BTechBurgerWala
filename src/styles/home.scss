@@ -12,7 +12,6 @@
 
         > h1{
             font-size: 3.8rem;
-            // text-transform: uppercase;
         }
 
         > p{
@@ -60,6 +59,10 @@
             text-align: center;
             padding-top: 10rem;
             padding-left: 0rem;
+
+            > h1{
+                font-size: 3.5rem;
+            }
         }
 
         > a{

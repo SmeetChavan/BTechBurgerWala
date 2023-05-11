@@ -1,8 +1,8 @@
-function MenuCard({itemNum , img , price , title , cartHandler , delay = "0"}) {
+function MenuCard({head , itemNum , img , price , title , cartHandler , delay = "0"}) {
     return(
         <div className='menuCard' data-aos="flip-left" data-aos-delay={delay}>
 
-            <div>{itemNum}</div>
+            <div>{head}</div>
 
             <main>
                 <img src={img} alt={itemNum}/>

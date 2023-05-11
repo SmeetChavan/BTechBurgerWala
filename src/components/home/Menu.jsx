@@ -43,9 +43,9 @@ function Menu(){
             <h1>MENU</h1>
 
             <div>
-                <MenuCard itemNum={1} img={burger1} price={200} title="Cheese Burger" cartHandler={handleAddToCart} delay="100"/>
-                <MenuCard itemNum={2} img={burger2} price={500} title="Jumbo Burger" cartHandler={handleAddToCart} delay="500"/>
-                <MenuCard itemNum={3} img={burger3} price={900} title="Chicken Burger with Fries" cartHandler={handleAddToCart} delay="800"/>
+                <MenuCard head={"Starter"} itemNum={1} img={burger1} price={200} title="Cheese Burger" cartHandler={handleAddToCart} delay="100"/>
+                <MenuCard head={"Snack"} itemNum={2} img={burger2} price={500} title="Jumbo Burger" cartHandler={handleAddToCart} delay="500"/>
+                <MenuCard head={"Meal"} itemNum={3} img={burger3} price={1800} title="Burger + Fries" cartHandler={handleAddToCart} delay="800"/>
             </div>
 
         </section>

@@ -130,3 +130,34 @@
         }
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    .about > main{
+
+        > h1{
+            font: 100 2rem "Roboto";
+            text-align: center;
+        }
+
+        > article{
+
+            > h4{
+                font: 100 1.6rem 'Roboto';
+            }
+
+            > p{
+                font-size: 0.7rem;
+            }
+        }
+
+        > div > article{
+            flex-direction: column;
+
+            > p{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
